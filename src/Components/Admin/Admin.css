@@ -1,0 +1,20 @@
+.navList li{
+    list-style: none;
+    padding:20px 5px;
+    border-bottom: 2px solid #607d8b;
+    width: 200px;
+    margin:5px 0;
+    border: radius 5px;;
+}
+.navList li a{
+    color: white !important;
+    text-decoration: none;
+}
+.navigation-menu{
+    background-color: #1f3133fc;
+    height: 88vh;
+}
+.icon{
+    color: white !important;
+    margin:0 10px;
+}

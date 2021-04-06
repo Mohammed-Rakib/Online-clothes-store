@@ -1,0 +1,9 @@
+button#googleLogin {
+    border: 1px solid #80808033;
+    width: 367px;
+    padding: 14px 23px;
+    border-radius: -9%;
+    border-radius: 32px;
+    outline: none;
+    margin: 225px auto;
+}

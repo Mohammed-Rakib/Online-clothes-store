@@ -1,0 +1,12 @@
+.cardBody img{
+    width:250px;
+}
+a.buyBtn {
+    text-decoration: none;
+    color: white;
+    background-color: #ff6347d1;
+    /* margin: 10px 0; */
+    padding: 10px 15px;
+    border-radius: 5px;
+    width:130px
+}
