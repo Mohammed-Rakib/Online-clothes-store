@@ -4,7 +4,7 @@ const ManagePdTable = (props) => {
     const {name, price,_id} = props.product;
     
     const deleteProduct = (id) => {
-        fetch(`http://localhost:4001/delete/${id}`,{
+        fetch(`https://young-shelf-43530.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then(res => res.json())

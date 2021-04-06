@@ -4,7 +4,7 @@ import ManagePdTable from './ManagePdTable';
 const ManageProduct = () => {
     const [products, setProduct] = useState([]);
     useEffect( () => {
-        const url = `http://localhost:4001/products`;
+        const url = `https://young-shelf-43530.herokuapp.com/products`;
         fetch(url)
         .then(res => res.json())
         .then(data =>{

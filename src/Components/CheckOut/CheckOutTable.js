@@ -4,13 +4,12 @@ import { UserContext } from '../../App';
 const CheckOutTable = (props) => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const {displayName , email} = loggedInUser;
-    console.log(displayName, email)
     const {name, price} = props.product;
 
 
     const handleCheckout = () => {
         const orderedProduct = {displayName,email,...props.product}
-        fetch('http://localhost:4001/checkOut', {
+        fetch('https://young-shelf-43530.herokuapp.com/checkOut', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(orderedProduct)
