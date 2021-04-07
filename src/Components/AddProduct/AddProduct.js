@@ -13,7 +13,7 @@ const AddProduct = () => {
             price: data.price,
             imageUrl:imageUrl
         }
-        const url = `http://localhost:4001/addProduct`;
+        const url = `https://young-shelf-43530.herokuapp.com/addProduct`;
         fetch(url, {
             method: 'POST',
             headers: {
